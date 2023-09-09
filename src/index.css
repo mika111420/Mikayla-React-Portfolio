@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=REM:wght@200&family=Sacramento&display=swap');
+
+@layer components {
+  body {
+    @apply font-[REM];
+  }
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
+}
