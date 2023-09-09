@@ -12,7 +12,11 @@ const Home = () => {
             <p className='py-4 max-w=[700px]'>With a passion and drive to create dynamic and innovative applications that solve real-world problems.
              Aspiring to blend creativity with technology, I'm on a mission to craft engaging user experiences and contribute to the ever-evolving digital landscape.</p>
              <div>
-                <button className='text-white border-2 px-6 py-3 flex items-center hover:bg-slate-800'>View Work<HiArrowNarrowRight className='ml-4' /></button>
+                <button className='text-white group border-2 px-6 py-3 flex items-center hover:bg-slate-800'>View Work
+                <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-4' />
+                </span>
+                </button>
              </div>
         </div>
 
