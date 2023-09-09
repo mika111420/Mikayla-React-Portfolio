@@ -1,5 +1,6 @@
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <h1 className="text-2xl"></h1>
       <Navbar />
       <Home />
+      <About />
     </div>
   );
 }
