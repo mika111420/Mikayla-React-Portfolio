@@ -17,14 +17,110 @@ export const Portfolio = () => {
 
 
 
-                <div style={{ backgroundImage: `url(${noteTaker})` }}
-                    className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+
+
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div' style={{ backgroundImage: `url(${noteTaker})` }}>
 
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                Note Taker Application
+                            <span className='text-2xl font-bold text-black tracking-wider'>
+                                Note Taker App
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div' style={{ backgroundImage: `url(${weather})` }}>
+
+                        {/* Hover Effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-black tracking-wider'>
+                                Weather Forecast
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div' style={{ backgroundImage: `url(${cloud})` }}>
+
+                        {/* Hover Effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-black tracking-wider'>
+                                Wish Cloud
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div' style={{ backgroundImage: `url(${password})` }}>
+
+                        {/* Hover Effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-black tracking-wider'>
+                               Password Generator
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div' style={{ backgroundImage: `url(${readme})` }}>
+
+                        {/* Hover Effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-black tracking-wider'>
+                            README Generator
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
+                                </a>
+                                <a href="/">
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center max-auto content-div' style={{ backgroundImage: `url(${portfolio})` }}>
+
+                        {/* Hover Effect */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-black tracking-wider'>
+                                CSS Portfolio
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="/">
