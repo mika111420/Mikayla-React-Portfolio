@@ -25,13 +25,13 @@ export const Portfolio = () => {
                         {/* Hover Effect */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-black tracking-wider'>
-                                Note Taker App
+                                Daily Planner
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://mika111420.github.io/daily-planner-third-party-api/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/daily-planner-third-party-api">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -47,10 +47,10 @@ export const Portfolio = () => {
                                 Weather Forecast
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://mika111420.github.io/weather-week-forecast/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/weather-week-forecast">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -69,7 +69,7 @@ export const Portfolio = () => {
                                 <a href="/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/Wish-Cloud">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -85,10 +85,10 @@ export const Portfolio = () => {
                                Password Generator
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://mika111420.github.io/javascript-password-generator/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/javascript-password-generator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -104,10 +104,10 @@ export const Portfolio = () => {
                             README Generator
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/README-generator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/README-generator">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
                                 </a>
 
@@ -123,10 +123,10 @@ export const Portfolio = () => {
                                 CSS Portfolio
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href="/">
+                                <a href="https://mika111420.github.io/week2-mikaylas-portfolio/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Demo</button>
                                 </a>
-                                <a href="/">
+                                <a href="https://github.com/mika111420/week2-mikaylas-portfolio">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-slate-800 font-bold text-lg'>Code</button>
                                 </a>
 
