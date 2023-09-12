@@ -1,7 +1,7 @@
 # Mikayla React Portfolio
 
 ## Description
-This React portfolio is an elite showcase of my skills, projects, and personal information. It serves as an online resume and portfolio to highlight my qualifications and accomplishments as a web developer! It features a Homepage that introduces me and my role as a developer, an About Me section with a profile image and expands further on my goals as a junior developer. A Portfolio: A section showcasing my projects complete with links to live demos or source code. A contact form and email link for easy communication & my downloadable resume for a detailed overview of my qualifications.
+This React portfolio is an elite showcase of my skills, projects, and personal information. It serves as an online resume and portfolio to highlight my qualifications and accomplishments as a web developer! It features a homepage that introduces me and my role as a developer, an 'About Me' section with a profile image and expands further on my goals as a junior developer. A portfolio; a section showcasing my projects complete with links to live demos or source code. A contact form and email link for easy communication & my downloadable resume for a detailed overview of my qualifications.
 
 <img width="998" alt="Screen Shot 2023-09-12 at 3 28 59 PM" src="https://github.com/mika111420/Mikayla-React-Portfolio/assets/128564443/614c4622-8ba7-49ef-a5f2-56b1b9721a81">
 
