@@ -6,7 +6,19 @@ import portfolio from '../assets/portfolio.png'
 import weather from '../assets/weather.jpg'
 import readme from '../assets/readme.jpg'
 
+const RESUME_FILE_URL = 'http://localhost:3000/resume.pdf'
+
 export const Portfolio = () => {
+const downloadFileAtURL=(url)=>{
+ const fileName = url.split('/').pop();
+ const aTag = document.createElement('a');
+ aTag.href=url;
+ aTag.setAttribute('download',fileName);
+ document.body.appendChild(aTag);
+ aTag.click();
+ aTag.remove();
+}
+
     return (
         <div name='portfolio' className='w-full h-screen bg-slate-500  text-slate-200'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -134,6 +146,10 @@ export const Portfolio = () => {
                         </div>
                     </div>
                 </div>
+                <div name='resume'>
+                <button onClick={()=>{downloadFileAtURL(RESUME_FILE_URL)}} className='text-white border-2 hover:bg-slate-800 px-4 py-3 m-20 mx-auto flex items-ccenter'>Resume</button>
+                </div>
+                
             </div>
         </div>
     )

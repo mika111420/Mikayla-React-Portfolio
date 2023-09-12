@@ -1,7 +1,9 @@
-import React from 'react' 
+import React, {useState} from 'react' 
 import {HiArrowNarrowRight} from 'react-icons/hi'
+import { Link } from 'react-scroll'
 
 const Home = () => {
+
   return (
     <div name='home' className='w-full h-screen bg-slate-500'>
         
@@ -12,7 +14,8 @@ const Home = () => {
             <p className='py-4 max-w=[700px]'>Fueled with a passion and drive to create dynamic and innovative applications that solve real-world problems.
              Aspiring to blend creativity with technology, I'm on a mission to craft engaging user experiences and contribute to the ever-evolving digital landscape.</p>
              <div>
-                <button className='text-white group border-2 px-6 py-3 flex items-center hover:bg-slate-800'>View Work
+                <button className='text-white group border-2 px-6 py-3 flex items-center hover:bg-slate-800'> 
+                            View Work
                 <span className='group-hover:rotate-90 duration-300'>
                 <HiArrowNarrowRight className='ml-4' />
                 </span>
