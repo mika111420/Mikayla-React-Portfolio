@@ -1,4 +1,5 @@
 import React from 'react'
+import me from '../assets/me.jpg'
 
 const About = () => {
     return (
@@ -9,17 +10,16 @@ const About = () => {
                         <p className='text-4xl font-bold inline border-b-4 border-white text-slate-300'>About</p>
                     </div>
                     <div></div>
-                    <div className='about__me'>
-                        <div className="about__me-image">
-                            <img src='' alt=''/> 
-                        </div>
-                    </div>
                     </div>
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-3xl font-bold'>
                             <p>Hi, I'm Mikayla, nice to meet you!</p>
+                            <div>
+                        <img className='rounded-full py-3 mx-auto w-80 h-90' src={process.env.PUBLIC_URL + '/me.jpg'} alt='Profile'/>
+                        </div>
                         </div>
                         <div>
+
                             <p>
                             I recently graduated from the University of Miami's Full Stack Web Development program,
                             where I honed my skills in creating robust web applications. My journey as a web developer
