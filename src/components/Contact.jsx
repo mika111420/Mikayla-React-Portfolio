@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+
+
+
+
+
+
+
+    
   return (
     <div name = 'contact' className='w-full h-screen bg-slate-500 flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/c6882c2e-1482-49f1-8b5c-318f883cec2a" className='flex flex-col max-w-[600px] w-full'>
