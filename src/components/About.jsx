@@ -9,6 +9,11 @@ const About = () => {
                         <p className='text-4xl font-bold inline border-b-4 border-white text-slate-300'>About</p>
                     </div>
                     <div></div>
+                    <div className='about__me'>
+                        <div className="about__me-image">
+                            <img src='' alt=''/> 
+                        </div>
+                    </div>
                     </div>
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-3xl font-bold'>
