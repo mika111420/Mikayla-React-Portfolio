@@ -11,7 +11,7 @@ const Home = () => {
             <p className='text-slate-400'>Hi, my name is</p>
             <h1 className='text-4xl sm:text-6xl font-bold text-slate-200'>Mikayla Rangel</h1>
             <h2 className='text-2xl sm:text-4xl font-semibold text-slate-700'>I'm a Full Stack Developer</h2>
-            <p className='py-4 max-w=[700px]'>Fueled with a passion and drive to create dynamic and innovative applications that solve real-world problems.
+            <p className='py-4 max-w=[700px] text-white'>Fueled with a passion and drive to create dynamic and innovative applications that solve real-world problems.
              Aspiring to blend creativity with technology, I'm on a mission to craft engaging user experiences and contribute to the ever-evolving digital landscape.</p>
              <div>
                 <button className='text-white group border-2 px-6 py-3 flex items-center hover:bg-slate-800'> 
